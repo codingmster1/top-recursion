@@ -22,6 +22,9 @@ function mergeSort(arr) {
      
     return [...result, ...left, ...right];
  }
- const arr = [0, 1, 1, 2, 3, 5, 8, 13];
+ 
+ const arr=[];
+ console.log(mergeSort([10, 7, 8, 9, 1, 5]));
+ console.log(mergeSort([45, 35, 40, 43, 30, 25]));
  console.log(mergeSort(arr));
   
