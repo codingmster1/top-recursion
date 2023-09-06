@@ -24,7 +24,7 @@ function mergeSort(arr) {
  }
  
  const arr=[];
- console.log(mergeSort([10, 7, 8, 9, 1, 5]));
- console.log(mergeSort([45, 35, 40, 43, 30, 25]));
+ console.log(mergeSort([10, 7, 8, 9, 1, 5])); // prints [1, 5, 7, 8, 9, 10]
+ console.log(mergeSort([45, 35, 40, 43, 30, 25])); // prints [25, 30, 35, 40, 43, 45]
  console.log(mergeSort(arr));
   
